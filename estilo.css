@@ -1,6 +1,44 @@
 body {
-  background: pink;
+  background: rgb(133, 108, 100)
 }
 h1 {
   text-align: center;
+}
+.caixa1 {
+   position: relative;
+   background: rgb(200, 212, 20);
+   width: 200px;
+   height: 200px;
+   color: #FFFFFF;
+   left: 50%;
+}
+.menuPrincipal {
+  position: absolute;
+  background: rgb(33, 14, 201);
+  width: 100%;
+  height: 100px;
+  top: 0pt;
+}
+nav ul {
+list-style-type:none
+margin 0;
+padding 0;
+overflow 0;
+}
+
+li {
+float: left;
+
+}
+li a {
+display: block;
+color: #FFFFFF;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-family: 'Courier New', Courier, monospace;
+}
+li a {
+background-color: rgb(48, 252, 7);
+color: brown;
 }
